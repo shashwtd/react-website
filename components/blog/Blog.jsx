@@ -2,7 +2,7 @@ import styles from "./Blog.module.css";
 import Link from "next/link";
 import { setTransformOrigin } from "@/utils/transformOrigin";
 
-function Blog({ title, date, description, blogId, fake = false, searchQuery }) {
+function Blog({ title='', date='', description='', blogId='', fake = false, searchQuery }) {
 	function handleMouseLeave(event) {
 		setTransformOrigin(event.currentTarget);
 	}

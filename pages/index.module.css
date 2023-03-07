@@ -1,0 +1,24 @@
+.ok {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ok h1 {
+    font-size: 1.5em;
+    font-family: "Mulish";
+    font-weight: 800;
+    opacity: 0.9;
+    padding: 0.5em 1em;
+    background: var(--primary-lighter);
+    margin: 0 1em;
+    border-radius: 10px;
+}
+
+.ok h1:hover {
+    background: var(--gray);
+    cursor: pointer;
+}
+

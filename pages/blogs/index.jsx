@@ -78,6 +78,7 @@ function Blogs() {
 				) : filteredBlogs.length ? (
 					filteredBlogs.map((blog) => (
 						<Blog
+							key={blog.id}
 							blogId={blog.id}
 							date={blog.date}
 							title={blog.title}
